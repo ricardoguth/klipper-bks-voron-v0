@@ -3225,3 +3225,18 @@ Once the underlying issue is corrected, use the "RESTART"
 command to reload the config and restart the host software.
 Printer is halted
 
+2024-11-12 01:33:47,359 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryExg6RVrOzRP0s6OY
+2024-11-12 01:33:47,392 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-12 01:33:47,405 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 48.47ms
+2024-11-12 01:33:47,496 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-12 01:33:48,761 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-12 01:33:51,851 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-12 01:33:51,857 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-12 01:33:51,862 [klippy_connection.py:_check_ready()] - 
+Existing command 'BED_MESH_CALIBRATE' not found in gcode_macro rename
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
