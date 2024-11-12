@@ -2607,3 +2607,199 @@ Once the underlying issue is corrected, use the "RESTART"
 command to reload the config and restart the host software.
 Printer is halted
 
+2024-11-12 01:20:51,436 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.11
+2024-11-12 01:20:51,439 [application.py:log_request()] - 101 GET /websocket (192.168.1.11) [_TRUSTED_USER_] 5.41ms
+2024-11-12 01:20:51,440 [websockets.py:open()] - Websocket Opened: ID: 281473119215872, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: 192.168.1.22
+2024-11-12 01:20:51,453 [websockets.py:_handle_identify()] - Websocket 281473119215872 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-12 01:20:55,108 [server.py:_handle_term_signal()] - Exiting with signal SIGTERM
+2024-11-12 01:20:55,124 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-12 01:20:55,346 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473119215872
+2024-11-12 01:20:55,351 [websockets.py:on_close()] - Websocket Closed: ID: 281473119215872 Close Code: 1001, Close Reason: Server Shutdown, Pong Time Elapsed: 3.92
+2024-11-12 01:20:57,046 [database.py:close()] - Database statistics:
+
+announcements:
+psize: 4096
+depth: 0
+branch_pages: 0
+leaf_pages: 0
+overflow_pages: 0
+entries: 0
+authorized_users:
+psize: 4096
+depth: 1
+branch_pages: 0
+leaf_pages: 1
+overflow_pages: 0
+entries: 1
+gcode_metadata:
+psize: 4096
+depth: 1
+branch_pages: 0
+leaf_pages: 1
+overflow_pages: 0
+entries: 1
+history:
+psize: 4096
+depth: 2
+branch_pages: 1
+leaf_pages: 7
+overflow_pages: 0
+entries: 14
+mainsail:
+psize: 4096
+depth: 1
+branch_pages: 0
+leaf_pages: 1
+overflow_pages: 0
+entries: 6
+moonraker:
+psize: 4096
+depth: 1
+branch_pages: 0
+leaf_pages: 1
+overflow_pages: 0
+entries: 8
+update_manager:
+psize: 4096
+depth: 2
+branch_pages: 1
+leaf_pages: 3
+overflow_pages: 11
+entries: 11
+2024-11-12 01:20:57,056 [server.py:main()] - Server Shutdown
+-------------------- Log Start | Tue Nov 12 01:21:22 2024 --------------------
+platform: Linux-5.16.17-sun50iw9-aarch64-with-glibc2.31
+data_path: /home/biqu/printer_data
+is_default_data_path: False
+config_file: /home/biqu/printer_data/config/moonraker.conf
+startup_warnings: []
+verbose: False
+debug: False
+asyncio_debug: False
+is_backup_config: False
+is_python_package: False
+instance_uuid: e355e649c37341468b6a2d3a89fabf6e
+unix_socket_path: /home/biqu/printer_data/comms/moonraker.sock
+software_version: v0.8.0-324-ga3e4dac
+git_branch: master
+git_remote: origin
+git_repo_url: https://github.com/Arksine/moonraker.git
+modified_files: []
+unofficial_components: []
+log_file: /home/biqu/printer_data/logs/moonraker.log
+python_version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+launch_args: /home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/moonraker.py -d /home/biqu/printer_data
+msgspec_enabled: False
+uvloop_enabled: False
+2024-11-12 01:21:22,798 [confighelper.py:read_file()] - Configuration File '/home/biqu/printer_data/config/moonraker.conf' parsed, total size: 2296 B
+2024-11-12 01:21:22,800 [server.py:add_log_rollover_item()] - 
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+klippy_uds_address = /home/biqu/printer_data/comms/klippy.sock
+
+[authorization]
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+cors_domains = 
+	*.lan
+	*.local
+	*://localhost
+	*://localhost:*
+	*://my.mainsail.xyz
+	*://app.fluidd.xyz
+
+[octoprint_compat]
+
+[history]
+
+[file_manager]
+enable_object_processing = True
+
+[update_manager]
+channel = dev
+refresh_interval = 168
+
+[update_manager mainsail-config]
+type = git_repo
+primary_branch = master
+path = ~/mainsail-config
+origin = https://github.com/mainsail-crew/mainsail-config.git
+managed_services = klipper
+
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+managed_services = crowsnest
+install_script = tools/pkglist.sh
+
+[update_manager sonar]
+type = git_repo
+path = ~/sonar
+origin = https://github.com/mainsail-crew/sonar.git
+primary_branch = main
+managed_services = sonar
+install_script = tools/install.sh
+
+[update_manager timelapse]
+type = git_repo
+primary_branch = main
+path = ~/moonraker-timelapse
+origin = https://github.com/mainsail-crew/moonraker-timelapse.git
+managed_services = klipper moonraker
+
+[update_manager KlipperScreen]
+type = git_repo
+path = ~/KlipperScreen
+origin = https://github.com/jordanruthe/KlipperScreen.git
+virtualenv = ~/.KlipperScreen-env
+requirements = scripts/KlipperScreen-requirements.txt
+system_dependencies = scripts/system-dependencies.json
+managed_services = KlipperScreen
+
+[update_manager klipper-backup]
+type = git_repo
+path = ~/klipper-backup
+origin = https://github.com/Staubgeborener/klipper-backup.git
+managed_services = moonraker
+primary_branch = main
+
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type = git_repo
+channel = dev
+path = ~/Klipper-Adaptive-Meshing-Purging
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+managed_services = klipper
+primary_branch = main
+
+#################################################################
+All Configuration Files:
+/home/biqu/printer_data/config/moonraker.conf
+#################################################################
+2024-11-12 01:21:23,702 [server.py:load_component()] - Component (secrets) loaded
+2024-11-12 01:21:23,733 [server.py:load_component()] - Component (template) loaded
+2024-11-12 01:21:23,756 [server.py:load_component()] - Component (klippy_connection) loaded
+2024-11-12 01:21:26,645 [server.py:load_component()] - Component (application) loaded
+2024-11-12 01:21:26,845 [server.py:load_component()] - Component (websockets) loaded
+2024-11-12 01:21:28,382 [server.py:load_component()] - Component (dbus_manager) loaded
+2024-11-12 01:21:28,607 [server.py:add_log_rollover_item()] - 
+Database Versions: pylmdb = 1.4.1, lmdb = (0, 9, 29)
+Unsafe Shutdown Count: 1
+2024-11-12 01:21:29,899 [server.py:load_component()] - Component (database) loaded
+2024-11-12 01:21:30,052 [file_manager.py:__init__()] - Using File System Observer: inotify
+2024-11-12 01:21:30,425 [server.py:load_component()] - Component (file_manager) loaded
