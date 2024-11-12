@@ -4407,3 +4407,4 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-12 01:41:34,648 [screen.py:init_tempstore()] - Temperature store size: 1200
 2024-11-12 01:42:00,315 [screen.py:show_popup_message()] - error: Extrude below minimum temp
 2024-11-12 01:44:33,189 [screen.py:show_popup_message()] - error: Move out of range: -10.000 110.000 30.000 [0.000]
+2024-11-12 01:44:54,152 [screen.py:show_popup_message()] - error: Move out of range: -9.994 110.000 5.000 [0.000]

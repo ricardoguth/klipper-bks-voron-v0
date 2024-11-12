@@ -3290,3 +3290,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarydxSmj6cYgNWKDJ
 2024-11-12 01:42:00,289 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Extrude below minimum temp
 See the 'min_extrude_temp' config option for details
 2024-11-12 01:44:33,186 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: -10.000 110.000 30.000 [0.000]
+2024-11-12 01:44:54,150 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: -9.994 110.000 5.000 [0.000]
