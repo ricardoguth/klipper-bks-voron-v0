@@ -1502,3 +1502,9 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKz5oWzE3AoSUWC
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundarybD1KlZpJBbAeb0DY
 2024-11-12 00:41:09,915 [application.py:post()] - Processing Uploaded File: printer.cfg
 2024-11-12 00:41:09,928 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 67.84ms
+2024-11-12 01:16:45,326 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryk4A0JhJM942Wm65t
+2024-11-12 01:16:45,382 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-12 01:16:45,410 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 87.49ms
+2024-11-12 01:16:46,516 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-12 01:16:47,785 [klippy_connection.py:_do_connect()] - Klippy Connection Established

@@ -3959,3 +3959,12 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-12 00:32:32,013 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
 2024-11-12 00:32:32,029 [job_status.py:update_file_metadata()] - Update Metadata. File: Forma-Caixa-4.42427-23m.gcode Size: 474746
 2024-11-12 00:32:32,040 [job_status.py:show_file_thumbnail()] - Forma-Caixa-4.42427-23m.gcode
+2024-11-12 01:03:03,236 [printer.py:change_state()] - Changing state from 'printing' to 'ready'
+2024-11-12 01:03:03,236 [printer.py:change_state()] - Adding callback for state: ready
+2024-11-12 01:03:03,275 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'complete'
+2024-11-12 01:16:46,521 [printer.py:change_state()] - Changing state from 'ready' to 'disconnected'
+2024-11-12 01:16:46,522 [printer.py:change_state()] - Adding callback for state: disconnected
+2024-11-12 01:16:46,526 [screen.py:state_disconnected()] - ### Going to disconnected
+2024-11-12 01:16:46,527 [printer.py:stop_tempstore_updates()] - Stopping tempstore
+2024-11-12 01:16:46,531 [screen.py:show_panel()] - Reinitializing panel
+2024-11-12 01:16:46,620 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
