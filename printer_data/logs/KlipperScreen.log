@@ -4667,3 +4667,20 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-12 10:17:43,276 [KlippyWebsocket.py:connect()] - Attempting to connect
 2024-11-12 10:17:43,277 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/info
 2024-11-12 10:17:43,332 [KlippyRest.py:_do_request()] - host=127.0.0.1, port=7125>>Max retries exceeded with url>>Failed to establish a new connection>>[Errno 111] Connection refused
+2024-11-12 10:17:53,178 [KlippyWebsocket.py:connect()] - Attempting to connect
+2024-11-12 10:17:53,179 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/info
+2024-11-12 10:17:53,216 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/access/oneshot_token
+2024-11-12 10:17:53,242 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2024-11-12 10:17:53,259 [_logging.py:info()] - Websocket connected
+2024-11-12 10:17:53,260 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2024-11-12 10:17:53,265 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/info
+2024-11-12 10:17:53,295 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/webcams/list
+2024-11-12 10:17:53,319 [printer.py:configure_cameras()] - Cameras: []
+2024-11-12 10:17:53,320 [screen.py:init_klipper()] - Moonraker info {'klippy_connected': False, 'klippy_state': 'disconnected', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'dbus_manager', 'database', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'update_manager', 'octoprint_compat', 'history'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes'], 'warnings': [], 'websocket_count': 2, 'moonraker_version': 'v0.8.0-324-ga3e4dac', 'missing_klippy_requirements': [], 'api_version': [1, 4, 0], 'api_version_string': '1.4.0'}
+2024-11-12 10:17:53,321 [screen.py:init_klipper()] - Klipper not connected
+2024-11-12 10:17:56,181 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/info
+2024-11-12 10:17:56,209 [screen.py:init_klipper()] - Moonraker info {'klippy_connected': False, 'klippy_state': 'disconnected', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'dbus_manager', 'database', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'update_manager', 'octoprint_compat', 'history'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes'], 'warnings': [], 'websocket_count': 2, 'moonraker_version': 'v0.8.0-324-ga3e4dac', 'missing_klippy_requirements': [], 'api_version': [1, 4, 0], 'api_version_string': '1.4.0'}
+2024-11-12 10:17:56,210 [screen.py:init_klipper()] - Klipper not connected
+2024-11-12 10:17:59,179 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/info
+2024-11-12 10:17:59,214 [screen.py:init_klipper()] - Moonraker info {'klippy_connected': False, 'klippy_state': 'disconnected', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'dbus_manager', 'database', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'update_manager', 'octoprint_compat', 'history'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes'], 'warnings': [], 'websocket_count': 2, 'moonraker_version': 'v0.8.0-324-ga3e4dac', 'missing_klippy_requirements': [], 'api_version': [1, 4, 0], 'api_version_string': '1.4.0'}
+2024-11-12 10:17:59,215 [screen.py:init_klipper()] - Klipper not connected
