@@ -4626,3 +4626,10 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-12 01:51:48,968 [printer.py:init_temp_store()] - Temp store: ['heater_bed', 'temperature_fan tcb1', 'extruder']
 2024-11-12 01:51:48,971 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/config
 2024-11-12 01:51:48,993 [screen.py:init_tempstore()] - Temperature store size: 1200
+2024-11-12 01:51:54,667 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2024-11-12 01:51:54,667 [printer.py:change_state()] - Adding callback for state: printing
+2024-11-12 01:51:54,688 [screen.py:_load_panel()] - Loading panel: job_status
+2024-11-12 01:51:54,943 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-11-12 01:51:54,954 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2024-11-12 01:51:54,990 [job_status.py:update_file_metadata()] - Update Metadata. File: Forma-Caixa-4.42427-23m.gcode Size: 474746
+2024-11-12 01:51:55,009 [job_status.py:show_file_thumbnail()] - Forma-Caixa-4.42427-23m.gcode
