@@ -1391,3 +1391,12 @@ Diverged: False
 2024-11-12 00:21:50,689 [websockets.py:_handle_identify()] - Websocket 281472954955904 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
 2024-11-12 00:23:03,438 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2024-11-12 00:23:04,962 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-12 00:23:06,377 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-12 00:23:06,381 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-12 00:23:06,385 [klippy_connection.py:_check_ready()] - 
+Option 'position_endstop' in section 'stepper_z' must be specified
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+

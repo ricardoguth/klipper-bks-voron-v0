@@ -5493,3 +5493,30 @@ verbose = True
 gcode = 
 	RUN_SHELL_COMMAND CMD=hello_world
 =======================
+Config error
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/biqu/klipper/klippy/klippy.py", line 143, in _read_config
+    m.add_printer_objects(config)
+  File "/home/biqu/klipper/klippy/toolhead.py", line 669, in add_printer_objects
+    config.get_printer().add_object('toolhead', ToolHead(config))
+  File "/home/biqu/klipper/klippy/toolhead.py", line 268, in __init__
+    self.kin = mod.load_kinematics(self, config)
+  File "/home/biqu/klipper/klippy/kinematics/corexy.py", line 99, in load_kinematics
+    return CoreXYKinematics(toolhead, config)
+  File "/home/biqu/klipper/klippy/kinematics/corexy.py", line 12, in __init__
+    self.rails = [stepper.LookupMultiRail(config.getsection('stepper_' + n))
+  File "/home/biqu/klipper/klippy/kinematics/corexy.py", line 12, in <listcomp>
+    self.rails = [stepper.LookupMultiRail(config.getsection('stepper_' + n))
+  File "/home/biqu/klipper/klippy/stepper.py", line 423, in LookupMultiRail
+    rail = PrinterRail(config, need_position_minmax,
+  File "/home/biqu/klipper/klippy/stepper.py", line 314, in __init__
+    self.position_endstop = config.getfloat('position_endstop')
+  File "/home/biqu/klipper/klippy/configfile.py", line 65, in getfloat
+    return self._get_wrapper(self.fileconfig.getfloat, option, default,
+  File "/home/biqu/klipper/klippy/configfile.py", line 32, in _get_wrapper
+    raise error("Option '%s' in section '%s' must be specified"
+configparser.Error: Option 'position_endstop' in section 'stepper_z' must be specified
+webhooks client 281473808540384: New connection
+webhooks client 281473808540384: Client info {'program': 'Moonraker', 'version': 'v0.8.0-324-ga3e4dac'}
