@@ -1447,3 +1447,19 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryoHWG2MY6X5W5Ed
 2024-11-12 00:24:56,967 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 94.50ms
 2024-11-12 00:24:57,028 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2024-11-12 00:24:58,292 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-12 00:25:01,513 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-12 00:25:01,518 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-12 00:25:01,524 [klippy_connection.py:_check_ready()] - 
+Existing command 'BED_MESH_CALIBRATE' not found in gcode_macro rename
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2024-11-12 00:25:55,452 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.files.move, Code: 403, Message: Access to file print_area_bed_mesh.cfg forbidden by reserved path 'update_manager print_area_bed_mesh'
+2024-11-12 00:28:11,785 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryWoWlK6b642zqZ9va
+2024-11-12 00:28:11,840 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-12 00:28:11,863 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 80.33ms
+2024-11-12 00:28:11,970 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-12 00:28:13,235 [klippy_connection.py:_do_connect()] - Klippy Connection Established
