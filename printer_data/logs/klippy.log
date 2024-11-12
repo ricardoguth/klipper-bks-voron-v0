@@ -26159,3 +26159,8 @@ Traceback (most recent call last):
 configparser.Error: Invalid homing_positive_dir / position_endstop in 'stepper_x'
 webhooks client 281473362274768: New connection
 webhooks client 281473362274768: Client info {'program': 'Moonraker', 'version': 'v0.8.0-324-ga3e4dac'}
+Unable to issue reset command on MCU 'mcu'
+Unable to issue reset command on MCU 'CB1'
+webhooks client 281473362274768: Disconnected
+Restarting printer
+Start printer at Tue Nov 12 01:50:51 2024 (1731376251.3 1788.0)
