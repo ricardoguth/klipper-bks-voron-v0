@@ -3357,3 +3357,9 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypzVjvkOg44gwfA
 2024-11-12 01:50:55,631 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-11-12 01:50:55,897 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-11-12 01:50:56,387 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_fan tcb1', 'extruder']
+2024-11-12 01:51:42,611 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYQEg93wqgic67hQ2
+2024-11-12 01:51:42,642 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-12 01:51:42,654 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 45.53ms
+2024-11-12 01:51:43,752 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-12 01:51:45,017 [klippy_connection.py:_do_connect()] - Klippy Connection Established
