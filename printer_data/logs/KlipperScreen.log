@@ -4076,3 +4076,23 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-12 01:20:48,247 [KlippyWebsocket.py:connect()] - Attempting to connect
 2024-11-12 01:20:48,247 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/info
 2024-11-12 01:20:48,256 [KlippyRest.py:_do_request()] - host=127.0.0.1, port=7125>>Max retries exceeded with url>>Failed to establish a new connection>>[Errno 111] Connection refused
+2024-11-12 01:21:34,070 [functions.py:log_start()] - --------------------KlipperScreen Log Start--------------------
+2024-11-12 01:21:34,071 [functions.py:log_start()] - KlipperScreen Version: v0.3.9-50-gdaed9a09
+2024-11-12 01:21:34,072 [functions.py:log_start()] - Python version: 3.9
+2024-11-12 01:21:35,235 [config.py:get_config_file_location()] - Passed config (-c): .
+2024-11-12 01:21:35,240 [config.py:__init__()] - Config path location: /home/biqu/KlipperScreen/ks_includes/defaults.conf
+2024-11-12 01:21:35,257 [config.py:__init__()] - Configured printers: [
+  {
+    "Printer": {
+      "moonraker_host": "127.0.0.1",
+      "moonraker_port": "7125",
+      "moonraker_api_key": ""
+    }
+  }
+]
+2024-11-12 01:21:35,408 [config.py:create_translations()] - Selected lang: None OS lang: en_US
+2024-11-12 01:21:35,409 [config.py:install_language()] - Using lang en
+2024-11-12 01:21:35,448 [screen.py:__init__()] - Monitors: 1 using number: 0
+2024-11-12 01:21:35,454 [screen.py:__init__()] - Wayland: False Display name: :0
+2024-11-12 01:21:35,462 [screen.py:__init__()] - Screen resolution: 1024x768
+2024-11-12 01:21:35,467 [KlippyGtk.py:__init__()] - Font size: 23.8 (medium)

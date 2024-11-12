@@ -1,15 +1,8 @@
 .env
 secrets.conf
-
-*.swp
 *.swp
 *.tmp
-*.tmp
-*.bak
 *.bak
 *.bkp
-*.csv
-*.bkp
-*.zip
 *.csv
 *.zip
