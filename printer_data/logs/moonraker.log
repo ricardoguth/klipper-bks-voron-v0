@@ -3291,3 +3291,8 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarydxSmj6cYgNWKDJ
 See the 'min_extrude_temp' config option for details
 2024-11-12 01:44:33,186 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: -10.000 110.000 30.000 [0.000]
 2024-11-12 01:44:54,150 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: -9.994 110.000 5.000 [0.000]
+2024-11-12 01:46:37,447 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYIUz2z7aZ4Y5soDX
+2024-11-12 01:46:37,486 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-12 01:46:37,498 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 54.21ms
+2024-11-12 01:46:38,600 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
