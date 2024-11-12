@@ -1426,3 +1426,18 @@ Once the underlying issue is corrected, use the "RESTART"
 command to reload the config and restart the host software.
 Printer is halted
 
+2024-11-12 00:24:25,971 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryjSl0q9JphxLd8jpT
+2024-11-12 00:24:26,022 [application.py:post()] - Processing Uploaded File: shell_command.cfg
+2024-11-12 00:24:26,053 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 85.61ms
+2024-11-12 00:24:26,116 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-12 00:24:27,381 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-12 00:24:28,363 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-12 00:24:28,366 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-12 00:24:28,374 [klippy_connection.py:_check_ready()] - 
+Section 'gcode_shell_command update_git_script' is not a valid config section
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
