@@ -3171,3 +3171,6 @@ Once the underlying issue is corrected, use the "RESTART"
 command to reload the config and restart the host software.
 Printer is halted
 
+2024-11-12 01:21:39,183 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-11-12 01:21:39,238 [application.py:log_request()] - 101 GET /websocket?token=A6C4GDBFGCD6R5HVVJZIQBMZLKKSE3AZ (127.0.0.1) [_TRUSTED_USER_] 11.05ms
+2024-11-12 01:21:39,240 [websockets.py:open()] - Websocket Opened: ID: 281473151192944, Proxied: False, User Agent: , Host Name: 127.0.0.1
