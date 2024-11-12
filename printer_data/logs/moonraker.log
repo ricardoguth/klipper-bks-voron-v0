@@ -3330,3 +3330,18 @@ Once the underlying issue is corrected, use the "RESTART"
 command to reload the config and restart the host software.
 Printer is halted
 
+2024-11-12 01:50:25,289 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryE3RKU26DXsef9xfL
+2024-11-12 01:50:25,314 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-12 01:50:25,744 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 457.54ms
+2024-11-12 01:50:25,786 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-12 01:50:27,052 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-12 01:50:28,053 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-12 01:50:28,057 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-12 01:50:28,063 [klippy_connection.py:_check_ready()] - 
+Invalid homing_positive_dir / position_endstop in 'stepper_x'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
