@@ -4651,3 +4651,6 @@ webhooks client 281473271948672: Client info {'program': 'Moonraker', 'version':
 webhooks client 281473271948672: Disconnected
 webhooks client 281473271194912: New connection
 webhooks client 281473271194912: Client info {'program': 'Moonraker', 'version': 'v0.8.0-324-ga3e4dac'}
+webhooks client 281473271194912: Disconnected
+webhooks client 281473236198112: New connection
+webhooks client 281473236198112: Client info {'program': 'Moonraker', 'version': 'v0.8.0-324-ga3e4dac'}
