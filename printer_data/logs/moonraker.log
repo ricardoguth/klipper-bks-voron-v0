@@ -1498,3 +1498,7 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHLDB8c93aO8Dxy
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKz5oWzE3AoSUWCTr
 2024-11-12 00:41:03,773 [application.py:post()] - Processing Uploaded File: moonraker.conf
 2024-11-12 00:41:03,787 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 65.91ms
+2024-11-12 00:41:09,863 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarybD1KlZpJBbAeb0DY
+2024-11-12 00:41:09,915 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-12 00:41:09,928 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 67.84ms
