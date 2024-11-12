@@ -1382,3 +1382,12 @@ Diverged: False
 2024-11-12 00:20:26,281 [base_deploy.py:log_info()] - Git Repo KlipperScreen: Next refresh in: 2 Days, 12 Hours, 22 Minutes, 45 Seconds
 2024-11-12 00:20:26,281 [base_deploy.py:log_info()] - Git Repo klipper-backup: Next refresh in: 2 Days, 12 Hours, 32 Minutes, 9 Seconds
 2024-11-12 00:20:26,281 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Next refresh in: 6 Days, 23 Hours, 59 Minutes, 16 Seconds
+2024-11-12 00:20:33,412 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-11-12 00:20:33,446 [application.py:log_request()] - 101 GET /websocket?token=3LV26PP5HYS62D6USGXXN23XSZZVYDNB (127.0.0.1) [_TRUSTED_USER_] 3.93ms
+2024-11-12 00:20:33,447 [websockets.py:open()] - Websocket Opened: ID: 281472918149104, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-11-12 00:21:50,429 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.11
+2024-11-12 00:21:50,435 [application.py:log_request()] - 101 GET /websocket (192.168.1.11) [_TRUSTED_USER_] 10.08ms
+2024-11-12 00:21:50,436 [websockets.py:open()] - Websocket Opened: ID: 281472954955904, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: 192.168.1.22
+2024-11-12 00:21:50,689 [websockets.py:_handle_identify()] - Websocket 281472954955904 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-12 00:23:03,438 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-12 00:23:04,962 [klippy_connection.py:_do_connect()] - Klippy Connection Established

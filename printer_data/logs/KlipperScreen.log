@@ -3653,3 +3653,38 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-12 00:20:23,599 [KlippyWebsocket.py:connect()] - Attempting to connect
 2024-11-12 00:20:23,600 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/info
 2024-11-12 00:20:23,611 [KlippyRest.py:_do_request()] - host=127.0.0.1, port=7125>>Max retries exceeded with url>>Failed to establish a new connection>>[Errno 111] Connection refused
+2024-11-12 00:20:33,398 [KlippyWebsocket.py:connect()] - Attempting to connect
+2024-11-12 00:20:33,399 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/info
+2024-11-12 00:20:33,419 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/access/oneshot_token
+2024-11-12 00:20:33,436 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2024-11-12 00:20:33,447 [_logging.py:info()] - Websocket connected
+2024-11-12 00:20:33,447 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2024-11-12 00:20:33,449 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/info
+2024-11-12 00:20:33,466 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/webcams/list
+2024-11-12 00:20:33,483 [printer.py:configure_cameras()] - Cameras: []
+2024-11-12 00:20:33,484 [screen.py:init_klipper()] - Moonraker info {'klippy_connected': True, 'klippy_state': 'error', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'dbus_manager', 'database', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'octoprint_compat', 'history', 'update_manager'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': [], 'websocket_count': 1, 'moonraker_version': 'v0.8.0-324-ga3e4dac', 'missing_klippy_requirements': [], 'api_version': [1, 4, 0], 'api_version_string': '1.4.0'}
+2024-11-12 00:20:33,484 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/printer/info
+2024-11-12 00:20:33,505 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/printer/objects/query?configfile
+2024-11-12 00:20:33,580 [screen.py:init_klipper()] - {'configfile': {'config': {}, 'settings': {}, 'warnings': [], 'save_config_pending': False, 'save_config_pending_items': {}}}
+2024-11-12 00:20:33,581 [printer.py:stop_tempstore_updates()] - Stopping tempstore
+2024-11-12 00:20:33,581 [printer.py:reinit()] - Klipper version: v0.12.0-125-gbfb71bc2d-dirty
+2024-11-12 00:20:33,582 [printer.py:reinit()] - # Extruders: 0
+2024-11-12 00:20:33,582 [printer.py:reinit()] - # Temperature devices: 0
+2024-11-12 00:20:33,582 [printer.py:reinit()] - # Fans: 0
+2024-11-12 00:20:33,582 [printer.py:reinit()] - # Output pins: 0
+2024-11-12 00:20:33,582 [printer.py:reinit()] - # Leds: 0
+2024-11-12 00:20:33,583 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/printer/gcode/help
+2024-11-12 00:20:33,605 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2024-11-12 00:20:33,607 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2024-11-12 00:20:33,839 [files.py:set_gcodes_path()] - Gcodes path: None
+2024-11-12 00:20:33,840 [screen.py:init_klipper()] - Printer initialized
+2024-11-12 00:20:33,840 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2024-11-12 00:20:33,840 [printer.py:change_state()] - Adding callback for state: error
+2024-11-12 00:20:33,844 [screen.py:show_panel()] - Reinitializing panel
+2024-11-12 00:20:33,910 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2024-11-12 00:23:03,449 [printer.py:change_state()] - Changing state from 'error' to 'disconnected'
+2024-11-12 00:23:03,449 [printer.py:change_state()] - Adding callback for state: disconnected
+2024-11-12 00:23:03,450 [screen.py:state_disconnected()] - ### Going to disconnected
+2024-11-12 00:23:03,451 [printer.py:stop_tempstore_updates()] - Stopping tempstore
+2024-11-12 00:23:03,455 [screen.py:show_panel()] - Reinitializing panel
+2024-11-12 00:23:03,579 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
