@@ -4405,3 +4405,4 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-12 01:41:34,621 [printer.py:init_temp_store()] - Temp store: ['heater_bed', 'temperature_fan tcb1', 'extruder']
 2024-11-12 01:41:34,624 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/config
 2024-11-12 01:41:34,648 [screen.py:init_tempstore()] - Temperature store size: 1200
+2024-11-12 01:42:00,315 [screen.py:show_popup_message()] - error: Extrude below minimum temp
