@@ -3195,3 +3195,8 @@ Printer is halted
 
 2024-11-12 01:23:57,142 [web.py:log_exception()] - 403 GET /server/files/config/KAMP?1731374638069 (192.168.1.11): KAMP is not a file
 2024-11-12 01:23:58,187 [application.py:log_request()] - 403 GET /server/files/config/KAMP?1731374638069 (192.168.1.11) [_TRUSTED_USER_] 1049.12ms
+2024-11-12 01:26:07,279 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryhoecqoHFIwFg3lKf
+2024-11-12 01:26:07,310 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-12 01:26:07,322 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 45.70ms
+2024-11-12 01:26:07,420 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
