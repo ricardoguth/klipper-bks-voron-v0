@@ -4321,3 +4321,7 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-12 01:39:02,973 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
 2024-11-12 01:39:02,997 [screen.py:init_tempstore()] - Tempstore not ready: {'result': {}} Retrying in 5 seconds
 2024-11-12 01:39:02,999 [main_menu.py:update_graph_visibility()] - Could not create graph tempstore: []
+2024-11-12 01:39:08,255 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/temperature_store
+2024-11-12 01:39:08,299 [printer.py:init_temp_store()] - Temp store: ['heater_bed', 'temperature_fan tcb1', 'extruder']
+2024-11-12 01:39:08,303 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/config
+2024-11-12 01:39:08,324 [screen.py:init_tempstore()] - Temperature store size: 1200
