@@ -18095,3 +18095,19 @@ Extruder max_extrude_ratio=0.266081
 mcu 'mcu': Starting serial connect
 webhooks client 281473362344016: New connection
 webhooks client 281473362344016: Client info {'program': 'Moonraker', 'version': 'v0.8.0-324-ga3e4dac'}
+Loaded MCU 'mcu' 106 commands (v0.12.0-114-ga77d0790 / gcc: (15:8-2019-q3-1+b1) 8.3.1 20190703 (release) [gcc-8-branch revision 273027] binutils: (2.35.2-2+14+b2) 2.35.2)
+MCU 'mcu' config: ADC_MAX=4095 BUS_PINS_i2c1=PB6,PB7 BUS_PINS_i2c1a=PB8,PB9 BUS_PINS_i2c2=PB10,PB11 BUS_PINS_spi1=PA6,PA7,PA5 BUS_PINS_spi1a=PB4,PB5,PB3 BUS_PINS_spi2=PB14,PB15,PB13 BUS_PINS_spi3=PB4,PB5,PB3 CLOCK_FREQ=72000000 MCU=stm32f103xe PWM_MAX=255 RECEIVE_WINDOW=192 RESERVE_PINS_serial=PA10,PA9 SERIAL_BAUD=250000 STATS_SUMSQ_BASE=256 STEPPER_BOTH_EDGE=1
+mcu 'CB1': Starting connect
+Loaded MCU 'CB1' 112 commands (v0.12.0-124-g09a78c31 / gcc: (Debian 10.2.1-6) 10.2.1 20210110 binutils: (GNU Binutils for Debian) 2.35.2)
+MCU 'CB1' config: ADC_MAX=4095 CLOCK_FREQ=50000000 MCU=linux PCA9685_MAX=4096 PWM_MAX=32768 STATS_SUMSQ_BASE=256
+Sending MCU 'mcu' printer configuration...
+Configured MCU 'mcu' (1024 moves)
+Sending MCU 'CB1' printer configuration...
+Configured MCU 'CB1' (1024 moves)
+Config error
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/klippy.py", line 180, in _connect
+    cb()
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 157, in handle_connect
+    raise self.printer.config_error(
+configparser.Error: Existing command 'BED_MESH_CALIBRATE' not found in gcode_macro rename

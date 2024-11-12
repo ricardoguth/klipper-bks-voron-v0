@@ -3216,3 +3216,12 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryDPzi2zZ2NGBtLv
 2024-11-12 01:26:38,406 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 53.91ms
 2024-11-12 01:26:38,515 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2024-11-12 01:26:39,780 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-12 01:26:42,842 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-12 01:26:42,848 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-12 01:26:42,853 [klippy_connection.py:_check_ready()] - 
+Existing command 'BED_MESH_CALIBRATE' not found in gcode_macro rename
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
