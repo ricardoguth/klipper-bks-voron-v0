@@ -1475,3 +1475,15 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarydBDr0jIZ3kNWOy
 2024-11-12 00:29:03,641 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 59.11ms
 2024-11-12 00:29:04,756 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2024-11-12 00:29:06,020 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-12 00:29:09,244 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-12 00:29:09,491 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-12 00:29:09,496 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-12 00:29:09,741 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-12 00:29:10,007 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-12 00:29:10,497 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_fan tcb1', 'extruder']
+2024-11-12 00:32:14,777 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHLDB8c93aO8Dxylt
+2024-11-12 00:32:14,799 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-12 00:32:14,813 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 37.25ms
+2024-11-12 00:32:15,931 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-12 00:32:17,196 [klippy_connection.py:_do_connect()] - Klippy Connection Established
