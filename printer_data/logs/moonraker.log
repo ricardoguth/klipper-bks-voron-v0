@@ -3866,3 +3866,21 @@ Diverged: False
 2024-11-12 10:17:59,193 [application.py:log_request()] - 101 GET /websocket (192.168.1.11) [_TRUSTED_USER_] 8.00ms
 2024-11-12 10:17:59,194 [websockets.py:open()] - Websocket Opened: ID: 281473240888320, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: 192.168.1.22
 2024-11-12 10:17:59,287 [websockets.py:_handle_identify()] - Websocket 281473240888320 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-12 10:18:11,355 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473241391840
+2024-11-12 10:18:11,357 [websockets.py:on_close()] - Websocket Closed: ID: 281473241391840 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.09
+2024-11-12 10:18:16,156 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-12 10:18:16,283 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', '-.mount', 'sysinit.target']
+**After=['-.mount', 'network-online.target', 'basic.target', 'klipper-mcu.service', 'system.slice', 'sysinit.target', 'systemd-journald.socket']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/biqu/printer_data/systemd/klipper.env
+**ExecStart=/home/biqu/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/biqu/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=biqu
