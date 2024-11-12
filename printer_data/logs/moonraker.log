@@ -1400,3 +1400,29 @@ Once the underlying issue is corrected, use the "RESTART"
 command to reload the config and restart the host software.
 Printer is halted
 
+2024-11-12 00:23:19,801 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-12 00:23:21,067 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-12 00:23:21,949 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-12 00:23:21,953 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-12 00:23:21,957 [klippy_connection.py:_check_ready()] - 
+Option 'position_endstop' in section 'stepper_z' must be specified
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2024-11-12 00:24:06,593 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryhO15mq7eJVnrIUQ9
+2024-11-12 00:24:06,658 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-12 00:24:06,689 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 100.47ms
+2024-11-12 00:24:06,781 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-12 00:24:08,049 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-12 00:24:09,052 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-12 00:24:09,055 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-12 00:24:09,060 [klippy_connection.py:_check_ready()] - 
+Section 'gcode_shell_command hello_world' is not a valid config section
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
