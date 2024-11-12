@@ -4282,3 +4282,9 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-12 01:33:59,397 [printer.py:change_state()] - Adding callback for state: error
 2024-11-12 01:33:59,401 [screen.py:show_panel()] - Reinitializing panel
 2024-11-12 01:33:59,473 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2024-11-12 01:38:56,815 [printer.py:change_state()] - Changing state from 'error' to 'disconnected'
+2024-11-12 01:38:56,816 [printer.py:change_state()] - Adding callback for state: disconnected
+2024-11-12 01:38:56,817 [screen.py:state_disconnected()] - ### Going to disconnected
+2024-11-12 01:38:56,818 [printer.py:stop_tempstore_updates()] - Stopping tempstore
+2024-11-12 01:38:56,821 [screen.py:show_panel()] - Reinitializing panel
+2024-11-12 01:38:56,889 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
