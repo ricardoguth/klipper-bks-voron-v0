@@ -3174,3 +3174,7 @@ Printer is halted
 2024-11-12 01:21:39,183 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
 2024-11-12 01:21:39,238 [application.py:log_request()] - 101 GET /websocket?token=A6C4GDBFGCD6R5HVVJZIQBMZLKKSE3AZ (127.0.0.1) [_TRUSTED_USER_] 11.05ms
 2024-11-12 01:21:39,240 [websockets.py:open()] - Websocket Opened: ID: 281473151192944, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-11-12 01:23:30,048 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.11
+2024-11-12 01:23:30,051 [application.py:log_request()] - 101 GET /websocket (192.168.1.11) [_TRUSTED_USER_] 5.33ms
+2024-11-12 01:23:30,052 [websockets.py:open()] - Websocket Opened: ID: 281473151408112, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: 192.168.1.22
+2024-11-12 01:23:30,063 [websockets.py:_handle_identify()] - Websocket 281473151408112 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
