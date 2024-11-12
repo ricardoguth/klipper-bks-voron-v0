@@ -4488,3 +4488,32 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-12 01:47:53,125 [printer.py:init_temp_store()] - Temp store: ['heater_bed', 'temperature_fan tcb1', 'extruder']
 2024-11-12 01:47:53,128 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/config
 2024-11-12 01:47:53,149 [screen.py:init_tempstore()] - Temperature store size: 1200
+2024-11-12 01:48:22,059 [printer.py:change_state()] - Changing state from 'ready' to 'disconnected'
+2024-11-12 01:48:22,060 [printer.py:change_state()] - Adding callback for state: disconnected
+2024-11-12 01:48:22,061 [screen.py:state_disconnected()] - ### Going to disconnected
+2024-11-12 01:48:22,061 [printer.py:stop_tempstore_updates()] - Stopping tempstore
+2024-11-12 01:48:22,065 [screen.py:show_panel()] - Reinitializing panel
+2024-11-12 01:48:22,139 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2024-11-12 01:48:25,258 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/info
+2024-11-12 01:48:25,281 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/webcams/list
+2024-11-12 01:48:25,302 [printer.py:configure_cameras()] - Cameras: []
+2024-11-12 01:48:25,303 [screen.py:init_klipper()] - Moonraker info {'klippy_connected': True, 'klippy_state': 'error', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'dbus_manager', 'database', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'http_client', 'announcements', 'webcam', 'extensions', 'history', 'update_manager', 'octoprint_compat'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes', 'config_examples', 'docs'], 'warnings': [], 'websocket_count': 2, 'moonraker_version': 'v0.8.0-324-ga3e4dac', 'missing_klippy_requirements': [], 'api_version': [1, 4, 0], 'api_version_string': '1.4.0'}
+2024-11-12 01:48:25,303 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/printer/info
+2024-11-12 01:48:25,328 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/printer/objects/query?configfile
+2024-11-12 01:48:25,407 [screen.py:init_klipper()] - {'configfile': {'config': {}, 'settings': {}, 'warnings': [], 'save_config_pending': False, 'save_config_pending_items': {}}}
+2024-11-12 01:48:25,408 [printer.py:stop_tempstore_updates()] - Stopping tempstore
+2024-11-12 01:48:25,409 [printer.py:reinit()] - Klipper version: v0.12.0-125-gbfb71bc2d
+2024-11-12 01:48:25,409 [printer.py:reinit()] - # Extruders: 0
+2024-11-12 01:48:25,410 [printer.py:reinit()] - # Temperature devices: 0
+2024-11-12 01:48:25,410 [printer.py:reinit()] - # Fans: 0
+2024-11-12 01:48:25,410 [printer.py:reinit()] - # Output pins: 0
+2024-11-12 01:48:25,411 [printer.py:reinit()] - # Leds: 0
+2024-11-12 01:48:25,411 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/printer/gcode/help
+2024-11-12 01:48:25,438 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2024-11-12 01:48:25,441 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/printer/objects/query?bed_mesh&configfile&display_status&extruder&fan&gcode_move&heater_bed&idle_timeout&pause_resume&print_stats&toolhead&virtual_sdcard&webhooks&motion_report&firmware_retraction&exclude_object&manual_probe
+2024-11-12 01:48:25,664 [files.py:set_gcodes_path()] - Gcodes path: /home/biqu/printer_data/gcodes
+2024-11-12 01:48:25,665 [screen.py:init_klipper()] - Printer initialized
+2024-11-12 01:48:25,665 [printer.py:change_state()] - Changing state from 'disconnected' to 'error'
+2024-11-12 01:48:25,665 [printer.py:change_state()] - Adding callback for state: error
+2024-11-12 01:48:25,669 [screen.py:show_panel()] - Reinitializing panel
+2024-11-12 01:48:25,735 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen

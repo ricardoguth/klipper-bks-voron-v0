@@ -3315,3 +3315,18 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryelqlKpXXQlVAAb
 2024-11-12 01:47:53,348 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-11-12 01:47:53,618 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-11-12 01:47:54,108 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_fan tcb1', 'extruder']
+2024-11-12 01:48:20,906 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryE84hKMfFI7TC0r9T
+2024-11-12 01:48:20,942 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-12 01:48:20,955 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 51.31ms
+2024-11-12 01:48:22,055 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-12 01:48:23,321 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-12 01:48:24,398 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-12 01:48:24,401 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-12 01:48:24,405 [klippy_connection.py:_check_ready()] - 
+Invalid homing_positive_dir / position_endstop in 'stepper_x'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
