@@ -3178,3 +3178,18 @@ Printer is halted
 2024-11-12 01:23:30,051 [application.py:log_request()] - 101 GET /websocket (192.168.1.11) [_TRUSTED_USER_] 5.33ms
 2024-11-12 01:23:30,052 [websockets.py:open()] - Websocket Opened: ID: 281473151408112, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: 192.168.1.22
 2024-11-12 01:23:30,063 [websockets.py:_handle_identify()] - Websocket 281473151408112 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-12 01:23:46,934 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryXZZDRgyO2IzXxZgt
+2024-11-12 01:23:46,960 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-12 01:23:46,973 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 40.68ms
+2024-11-12 01:23:47,063 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-12 01:23:48,327 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-12 01:23:51,365 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-12 01:23:51,370 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-12 01:23:51,376 [klippy_connection.py:_check_ready()] - 
+Existing command 'BED_MESH_CALIBRATE' not found in gcode_macro rename
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
