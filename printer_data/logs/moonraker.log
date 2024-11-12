@@ -1487,3 +1487,14 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHLDB8c93aO8Dxy
 2024-11-12 00:32:14,813 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 37.25ms
 2024-11-12 00:32:15,931 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2024-11-12 00:32:17,196 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-12 00:32:20,488 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-12 00:32:20,729 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-12 00:32:20,737 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-12 00:32:20,979 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-12 00:32:21,248 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-12 00:32:21,737 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_fan tcb1', 'extruder']
+2024-11-12 00:32:31,760 [job_state.py:_status_update()] - Job Started: Forma-Caixa-4.42427-23m.gcode
+2024-11-12 00:41:03,723 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKz5oWzE3AoSUWCTr
+2024-11-12 00:41:03,773 [application.py:post()] - Processing Uploaded File: moonraker.conf
+2024-11-12 00:41:03,787 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 65.91ms
