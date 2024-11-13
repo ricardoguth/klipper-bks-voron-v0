@@ -267,3 +267,13 @@ Content-Type: multipart/form-data; boundary=------------------------c68420745465
 2024-11-13 01:01:39,398 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "Lower_Corner_1_and_3_Clip_x2 (1) (1)v3-4.09481-27m.gcode" --check-objects) successfully finished
 2024-11-13 01:01:39,409 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 1068.22ms
 2024-11-13 01:01:48,769 [websockets.py:on_close()] - Websocket Closed: ID: 281473240888320 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.57
+2024-11-13 01:18:29,369 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.15
+2024-11-13 01:29:06,982 [application.py:log_request()] - 101 GET /websocket (192.168.1.11) [_TRUSTED_USER_] 4.48ms
+2024-11-13 01:29:06,983 [websockets.py:open()] - Websocket Opened: ID: 281473240704768, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: 192.168.1.22
+2024-11-13 01:29:10,069 [websockets.py:_handle_identify()] - Websocket 281473240704768 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-13 01:30:17,581 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKgSUgNwj2I5AH6js
+2024-11-13 01:30:17,653 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-13 01:30:17,679 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 102.23ms
+2024-11-13 01:30:18,829 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-13 01:30:20,092 [klippy_connection.py:_do_connect()] - Klippy Connection Established
