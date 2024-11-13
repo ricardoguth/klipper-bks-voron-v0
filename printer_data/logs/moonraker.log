@@ -288,3 +288,8 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryM7BpgRqmhwFqNB
 2024-11-13 01:30:56,264 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 114.05ms
 2024-11-13 01:30:57,387 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2024-11-13 01:30:58,651 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-13 01:31:02,427 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-13 01:31:02,432 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-13 01:31:02,677 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-13 01:31:02,945 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-13 01:31:03,440 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_fan tcb1', 'extruder']
