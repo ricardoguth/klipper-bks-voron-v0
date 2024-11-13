@@ -266,3 +266,4 @@ Content-Type: multipart/form-data; boundary=------------------------c68420745465
 
 2024-11-13 01:01:39,398 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "Lower_Corner_1_and_3_Clip_x2 (1) (1)v3-4.09481-27m.gcode" --check-objects) successfully finished
 2024-11-13 01:01:39,409 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 1068.22ms
+2024-11-13 01:01:48,769 [websockets.py:on_close()] - Websocket Closed: ID: 281473240888320 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.57
