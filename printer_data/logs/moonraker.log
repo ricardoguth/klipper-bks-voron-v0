@@ -256,3 +256,13 @@ Content-Type: multipart/form-data; boundary=------------------------0472e1932b8f
 2024-11-13 00:53:52,561 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "Lower_Corner_1_and_3_Clip_x2_v2-4.24959-28m.gcode" --check-objects) successfully finished
 2024-11-13 00:53:52,604 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 1491.43ms
 2024-11-13 00:53:52,847 [job_state.py:_status_update()] - Job Started: Lower_Corner_1_and_3_Clip_x2_v2-4.24959-28m.gcode
+2024-11-13 00:59:13,291 [job_state.py:_status_update()] - Job Started: Lower_Corner_1_and_3_Clip_x2_v2-4.24959-28m.gcode
+2024-11-13 01:01:38,343 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=------------------------c68420745465d939
+2024-11-13 01:01:38,577 [application.py:post()] - Processing Uploaded File: Lower_Corner_1_and_3_Clip_x2 (1) (1)v3-4.09481-27m.gcode
+2024-11-13 01:01:39,131 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-11-13 01:01:39,140 [shell_command.py:pipe_data_received()] - INFO:metadata:File 'Lower_Corner_1_and_3_Clip_x2 (1) (1)v3-4.09481-27m.gcode' currently supports cancellation, processing aborted
+
+2024-11-13 01:01:39,398 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "Lower_Corner_1_and_3_Clip_x2 (1) (1)v3-4.09481-27m.gcode" --check-objects) successfully finished
+2024-11-13 01:01:39,409 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 1068.22ms
