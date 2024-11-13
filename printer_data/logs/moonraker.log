@@ -232,3 +232,8 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygPQxagDCvqkAX6
 2024-11-13 00:10:23,383 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-11-13 00:10:23,848 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.11
 2024-11-13 00:10:24,116 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_fan tcb1', 'extruder']
+2024-11-13 00:10:53,956 [job_state.py:_status_update()] - Job Started: Forma-Caixa-4.42427-23m.gcode
+2024-11-13 00:15:59,555 [application.py:prepare()] - Upload Request Received from 192.168.1.15
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykH9wyuYem7wfzZeY
+2024-11-13 00:15:59,596 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-13 00:15:59,621 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.15) [_TRUSTED_USER_] 69.96ms
