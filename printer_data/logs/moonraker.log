@@ -216,3 +216,13 @@ Git Repo klipper-backup: No warnings detected
 Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
 Klipper Version: v0.12.0-125-gbfb71bc2d
 2024-11-13 00:08:29,328 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.11
+2024-11-13 00:09:46,786 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.15
+2024-11-13 00:09:46,792 [application.py:log_request()] - 101 GET /websocket (192.168.1.15) [_TRUSTED_USER_] 9.15ms
+2024-11-13 00:09:46,794 [websockets.py:open()] - Websocket Opened: ID: 281472937551856, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: 192.168.1.22
+2024-11-13 00:09:46,809 [websockets.py:_handle_identify()] - Websocket 281472937551856 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-13 00:10:16,602 [application.py:prepare()] - Upload Request Received from 192.168.1.15
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygPQxagDCvqkAX6Gt
+2024-11-13 00:10:16,653 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-11-13 00:10:16,683 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.15) [_TRUSTED_USER_] 85.71ms
+2024-11-13 00:10:17,791 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-13 00:10:19,056 [klippy_connection.py:_do_connect()] - Klippy Connection Established
