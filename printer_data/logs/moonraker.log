@@ -293,3 +293,17 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryM7BpgRqmhwFqNB
 2024-11-13 01:31:02,677 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-11-13 01:31:02,945 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-11-13 01:31:03,440 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_fan tcb1', 'extruder']
+2024-11-13 01:31:19,729 [job_state.py:_status_update()] - Job Started: Lower_Corner_1_and_3_Clip_x2_v2-4.24959-28m.gcode
+2024-11-13 01:32:27,921 [job_state.py:_status_update()] - Job Started: Lower_Corner_1_and_3_Clip_x2_v2-4.24959-28m.gcode
+2024-11-13 01:35:47,287 [job_state.py:_status_update()] - Job Started: Lower_Corner_1_and_3_Clip_x2_v2-4.24959-28m.gcode
+2024-11-13 01:39:04,009 [websockets.py:on_close()] - Websocket Closed: ID: 281473240704768 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.02
+2024-11-13 02:05:48,397 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.15
+2024-11-13 02:05:48,403 [application.py:log_request()] - 101 GET /websocket (192.168.1.15) [_TRUSTED_USER_] 10.29ms
+2024-11-13 02:05:48,405 [websockets.py:open()] - Websocket Opened: ID: 281472927278320, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: 192.168.1.22
+2024-11-13 02:05:48,431 [websockets.py:_handle_identify()] - Websocket 281472927278320 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-13 02:06:35,004 [websockets.py:on_close()] - Websocket Closed: ID: 281472927278320 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.59
+2024-11-13 02:11:57,170 [application.py:log_request()] - 101 GET /websocket (192.168.1.15) [_TRUSTED_USER_] 7.23ms
+2024-11-13 02:11:57,171 [websockets.py:open()] - Websocket Opened: ID: 281472927277120, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: 192.168.1.22
+2024-11-13 02:11:57,206 [websockets.py:_handle_identify()] - Websocket 281472927277120 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-11-13 02:12:03,900 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-13 02:12:05,164 [klippy_connection.py:_do_connect()] - Klippy Connection Established
