@@ -241,3 +241,18 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykH9wyuYem7wfzZ
 2024-11-13 00:24:41,798 [websockets.py:on_close()] - Websocket Closed: ID: 281472937551856 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
 2024-11-13 00:47:54,327 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2024-11-13 00:47:55,592 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-13 00:47:59,236 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-13 00:47:59,240 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-13 00:47:59,487 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-13 00:47:59,770 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-13 00:48:00,251 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_fan tcb1', 'extruder']
+2024-11-13 00:53:51,115 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=------------------------0472e1932b8fb3f6
+2024-11-13 00:53:51,293 [application.py:post()] - Processing Uploaded File: Lower_Corner_1_and_3_Clip_x2_v2-4.24959-28m.gcode
+2024-11-13 00:53:52,201 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-11-13 00:53:52,212 [shell_command.py:pipe_data_received()] - INFO:metadata:File 'Lower_Corner_1_and_3_Clip_x2_v2-4.24959-28m.gcode' currently supports cancellation, processing aborted
+
+2024-11-13 00:53:52,561 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "Lower_Corner_1_and_3_Clip_x2_v2-4.24959-28m.gcode" --check-objects) successfully finished
+2024-11-13 00:53:52,604 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 1491.43ms
+2024-11-13 00:53:52,847 [job_state.py:_status_update()] - Job Started: Lower_Corner_1_and_3_Clip_x2_v2-4.24959-28m.gcode
