@@ -824,3 +824,7 @@ Properties:
 2024-11-13 02:17:45,782 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-11-13 02:17:46,151 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
 2024-11-13 02:17:46,249 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_fan tcb1', 'extruder']
+2024-11-13 02:18:00,998 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.11
+2024-11-13 02:18:01,002 [application.py:log_request()] - 101 GET /websocket (192.168.1.11) [_TRUSTED_USER_] 6.66ms
+2024-11-13 02:18:01,003 [websockets.py:open()] - Websocket Opened: ID: 281472535491536, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36, Host Name: 192.168.1.22
+2024-11-13 02:18:01,034 [websockets.py:_handle_identify()] - Websocket 281472535491536 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
