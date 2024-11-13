@@ -237,3 +237,7 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygPQxagDCvqkAX6
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykH9wyuYem7wfzZeY
 2024-11-13 00:15:59,596 [application.py:post()] - Processing Uploaded File: printer.cfg
 2024-11-13 00:15:59,621 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.15) [_TRUSTED_USER_] 69.96ms
+2024-11-13 00:24:36,901 [websockets.py:write_to_socket()] - Websocket closed while writing: 281472937551856
+2024-11-13 00:24:41,798 [websockets.py:on_close()] - Websocket Closed: ID: 281472937551856 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2024-11-13 00:47:54,327 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-11-13 00:47:55,592 [klippy_connection.py:_do_connect()] - Klippy Connection Established
