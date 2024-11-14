@@ -734,3 +734,10 @@ Content-Type: multipart/form-data; boundary=------------------------40f1be1848ba
 2024-11-14 16:41:37,114 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -p /home/biqu/printer_data/gcodes -f "Lower_Corner_1_and_3_Clip_x2 (1) (2) (2)V4-6.88104-31m.gcode" --check-objects) successfully finished
 2024-11-14 16:41:37,157 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.11) [_TRUSTED_USER_] 4776.83ms
 2024-11-14 16:41:37,375 [job_state.py:_status_update()] - Job Started: Lower_Corner_1_and_3_Clip_x2 (1) (2) (2)V4-6.88104-31m.gcode
+2024-11-14 17:04:35,248 [machine.py:_parse_network_interfaces()] - Error processing network update
+Traceback (most recent call last):
+  File "/home/biqu/moonraker/moonraker/components/machine.py", line 673, in _parse_network_interfaces
+    resp = await self.addr_cmd.run_with_response(log_complete=False)
+  File "/home/biqu/moonraker/moonraker/components/shell_command.py", line 277, in run_with_response
+    raise ShellCommandError(
+moonraker.components.shell_command.ShellCommandError: Error running shell command: 'ip -json -det address'
