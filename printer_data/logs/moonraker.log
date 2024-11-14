@@ -697,3 +697,23 @@ Diverged: False
 2024-11-14 03:17:47,728 [extensions.py:start_unix_server()] - Creating Unix Domain Socket at '/home/biqu/printer_data/comms/moonraker.sock'
 2024-11-14 03:17:47,735 [server.py:start_server()] - Starting Moonraker on (0.0.0.0, 7125), Hostname: BTT-CB1-VO
 2024-11-14 03:17:47,738 [application.py:listen()] - SSL Certificate/Key not configured, aborting HTTPS Server startup
+2024-11-14 03:17:57,253 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-11-14 03:17:57,343 [application.py:log_request()] - 101 GET /websocket?token=MHAZJDRAZ6722P6KMHIN6ZM43FG7PSW6 (127.0.0.1) [_TRUSTED_USER_] 30.71ms
+2024-11-14 03:17:57,345 [websockets.py:open()] - Websocket Opened: ID: 281472671116448, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-11-14 03:18:13,233 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-11-14 03:18:13,360 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', '-.mount', 'sysinit.target']
+**After=['sysinit.target', 'system.slice', 'basic.target', 'network-online.target', '-.mount', 'systemd-journald.socket', 'klipper-mcu.service']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/biqu/printer_data/systemd/klipper.env
+**ExecStart=/home/biqu/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/biqu/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=biqu
+2024-11-14 03:18:14,923 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-125-gbfb71bc2d
