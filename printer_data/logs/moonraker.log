@@ -217,3 +217,4 @@ Git Repo klipper-backup: No warnings detected
 Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
 Klipper Version: v0.12.0-125-gbfb71bc2d
 2024-11-14 02:31:56,104 [job_state.py:_status_update()] - Job Started: Lower_Corner_1_and_3_Clip_x2 (1) (1)v3-4.09481-27m.gcode
+2024-11-14 02:35:21,737 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
