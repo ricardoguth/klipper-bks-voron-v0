@@ -4856,3 +4856,6 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-14 16:41:38,403 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
 2024-11-14 16:41:38,507 [job_status.py:update_file_metadata()] - Update Metadata. File: Lower_Corner_1_and_3_Clip_x2 (1) (2) (2)V4-6.88104-31m.gcode Size: 1534783
 2024-11-14 16:41:38,761 [job_status.py:show_file_thumbnail()] - Lower_Corner_1_and_3_Clip_x2 (1) (2) (2)V4-6.88104-31m.gcode
+2024-11-14 17:20:08,564 [printer.py:change_state()] - Changing state from 'printing' to 'ready'
+2024-11-14 17:20:08,564 [printer.py:change_state()] - Adding callback for state: ready
+2024-11-14 17:20:08,584 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'complete'
