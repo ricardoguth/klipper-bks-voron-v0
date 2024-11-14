@@ -717,3 +717,9 @@ Properties:
 **Description=Klipper 3D Printer Firmware SV1
 **User=biqu
 2024-11-14 03:18:14,923 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-125-gbfb71bc2d
+2024-11-14 03:18:17,537 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-11-14 03:18:17,543 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-11-14 03:18:17,788 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-11-14 03:18:18,064 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-11-14 03:18:18,541 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_fan tcb1', 'extruder']
+2024-11-14 16:35:05,490 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
