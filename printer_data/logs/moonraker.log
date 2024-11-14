@@ -723,3 +723,7 @@ Properties:
 2024-11-14 03:18:18,064 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-11-14 03:18:18,541 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_fan tcb1', 'extruder']
 2024-11-14 16:35:05,490 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-14 16:41:32,335 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.11
+2024-11-14 16:41:32,382 [application.py:prepare()] - Upload Request Received from 192.168.1.11
+Content-Type: multipart/form-data; boundary=------------------------40f1be1848ba5905
+2024-11-14 16:41:35,850 [application.py:post()] - Processing Uploaded File: Lower_Corner_1_and_3_Clip_x2 (1) (2) (2)V4-6.88104-31m.gcode
