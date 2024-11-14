@@ -4849,3 +4849,10 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-14 16:35:07,925 [printer.py:init_temp_store()] - Temp store: ['heater_bed', 'temperature_fan tcb1', 'extruder']
 2024-11-14 16:35:07,928 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/config
 2024-11-14 16:35:07,952 [screen.py:init_tempstore()] - Temperature store size: 1200
+2024-11-14 16:41:37,383 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2024-11-14 16:41:37,384 [printer.py:change_state()] - Adding callback for state: printing
+2024-11-14 16:41:37,401 [screen.py:_load_panel()] - Loading panel: job_status
+2024-11-14 16:41:38,392 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2024-11-14 16:41:38,403 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2024-11-14 16:41:38,507 [job_status.py:update_file_metadata()] - Update Metadata. File: Lower_Corner_1_and_3_Clip_x2 (1) (2) (2)V4-6.88104-31m.gcode Size: 1534783
+2024-11-14 16:41:38,761 [job_status.py:show_file_thumbnail()] - Lower_Corner_1_and_3_Clip_x2 (1) (2) (2)V4-6.88104-31m.gcode
