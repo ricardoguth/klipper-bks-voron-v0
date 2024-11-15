@@ -919,3 +919,4 @@ Diverged: False
 2024-11-15 05:18:32,263 [base_deploy.py:log_info()] - Git Repo klipper-backup: Validity check for git repo passed
 2024-11-15 05:18:32,264 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Next refresh in: 3 Days, 19 Hours, 1 Minute, 10 Seconds
 2024-11-15 05:18:35,978 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.22
+2024-11-15 06:23:10,813 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
