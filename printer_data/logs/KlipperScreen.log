@@ -4860,3 +4860,32 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-14 17:20:08,564 [printer.py:change_state()] - Adding callback for state: ready
 2024-11-14 17:20:08,584 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'complete'
 2024-11-14 17:34:31,059 [screen.py:show_screensaver()] - Showing Screensaver
+2024-11-15 05:17:31,691 [functions.py:log_start()] - --------------------KlipperScreen Log Start--------------------
+2024-11-15 05:17:31,692 [functions.py:log_start()] - KlipperScreen Version: v0.3.9-50-gdaed9a09
+2024-11-15 05:17:31,692 [functions.py:log_start()] - Python version: 3.9
+2024-11-15 05:17:32,182 [config.py:get_config_file_location()] - Passed config (-c): .
+2024-11-15 05:17:32,187 [config.py:__init__()] - Config path location: /home/biqu/KlipperScreen/ks_includes/defaults.conf
+2024-11-15 05:17:32,210 [config.py:__init__()] - Configured printers: [
+  {
+    "Printer": {
+      "moonraker_host": "127.0.0.1",
+      "moonraker_port": "7125",
+      "moonraker_api_key": ""
+    }
+  }
+]
+2024-11-15 05:17:32,379 [config.py:create_translations()] - Selected lang: None OS lang: en_US
+2024-11-15 05:17:32,380 [config.py:install_language()] - Using lang en
+2024-11-15 05:17:32,447 [screen.py:__init__()] - Monitors: 1 using number: 0
+2024-11-15 05:17:32,453 [screen.py:__init__()] - Wayland: False Display name: :0
+2024-11-15 05:17:32,463 [screen.py:__init__()] - Screen resolution: 1024x768
+2024-11-15 05:17:32,467 [KlippyGtk.py:__init__()] - Font size: 23.8 (medium)
+2024-11-15 05:17:34,819 [screen.py:set_screenblanking_timeout()] - Changing screen blanking to: 3600
+2024-11-15 05:17:34,880 [screen.py:set_screenblanking_timeout()] - Using DPMS
+2024-11-15 05:17:34,918 [screen.py:initial_connection()] - Default printer: None
+2024-11-15 05:17:35,080 [screen.py:connect_printer()] - Connecting to printer: Printer
+2024-11-15 05:17:35,083 [screen.py:_load_panel()] - Loading panel: splash_screen
+2024-11-15 05:17:35,338 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2024-11-15 05:17:35,386 [KlippyWebsocket.py:connect()] - Attempting to connect
+2024-11-15 05:17:35,387 [KlippyRest.py:_do_request()] - Sending get to http://127.0.0.1:7125/server/info
+2024-11-15 05:17:35,429 [KlippyRest.py:_do_request()] - host=127.0.0.1, port=7125>>Max retries exceeded with url>>Failed to establish a new connection>>[Errno 111] Connection refused

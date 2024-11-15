@@ -1,7 +1,11 @@
 .env
 secrets.conf
+*.bkp
+
 *.swp
+*.csv
 *.tmp
+*.zip
 *.bak
 *.bkp
 *.csv
