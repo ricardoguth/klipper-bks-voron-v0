@@ -4859,3 +4859,4 @@ Unable to create log file at '/home/biqu/printer_data/logs/moonraker.log'. Make 
 2024-11-14 17:20:08,564 [printer.py:change_state()] - Changing state from 'printing' to 'ready'
 2024-11-14 17:20:08,564 [printer.py:change_state()] - Adding callback for state: ready
 2024-11-14 17:20:08,584 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'complete'
+2024-11-14 17:34:31,059 [screen.py:show_screensaver()] - Showing Screensaver
