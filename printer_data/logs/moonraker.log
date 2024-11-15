@@ -666,3 +666,26 @@ Traceback (most recent call last):
 socket.gaierror: [Errno -2] Name or service not known
 2024-11-15 05:17:45,761 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker fetch origin --prune --progress) exited with return code 128
 2024-11-15 05:17:45,784 [shell_command.py:_check_proc_success()] - Command (find .git/objects/ -type f -empty | xargs rm) exited with return code 1
+2024-11-15 05:17:46,851 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-11-15 05:17:46,859 [git_deploy.py:_repair_loose_objects()] - Attempt to repair loose objects failed, hard recovery is required
+Traceback (most recent call last):
+  File "/home/biqu/moonraker/moonraker/components/update_manager/git_deploy.py", line 1106, in _repair_loose_objects
+    await shell_cmd.exec_cmd(
+  File "/home/biqu/moonraker/moonraker/components/shell_command.py", line 277, in run_with_response
+    raise ShellCommandError(
+moonraker.components.shell_command.ShellCommandError: Error running shell command: 'find .git/objects/ -type f -empty | xargs rm'
+2024-11-15 05:17:46,860 [git_deploy.py:refresh_repo_state()] - Git Repo moonraker: Initialization failure
+Traceback (most recent call last):
+  File "/home/biqu/moonraker/moonraker/components/update_manager/git_deploy.py", line 337, in refresh_repo_state
+    await self.fetch()
+  File "/home/biqu/moonraker/moonraker/components/update_manager/git_deploy.py", line 746, in fetch
+    await self._run_git_cmd_async(
+  File "/home/biqu/moonraker/moonraker/components/update_manager/git_deploy.py", line 1171, in _run_git_cmd_async
+    raise self.server.error(
+moonraker.utils.ServerError: Unable to repair loose objects, use hard recovery
+2024-11-15 05:17:46,861 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
+2024-11-15 05:17:46,861 [base_deploy.py:log_info()] - Git Repo moonraker: Repo validation check failed, updates disabled
+2024-11-15 05:17:46,937 [application.py:log_request()] - 101 GET /websocket?token=D65FMHI537UYAVFKW45KVJX4QQJYCV4Y (127.0.0.1) [_TRUSTED_USER_] 9.57ms
+2024-11-15 05:17:46,938 [websockets.py:open()] - Websocket Opened: ID: 281473649673696, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-11-15 05:17:47,618 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-11-15 05:18:06,919 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper status --porcelain -b) cancelled
